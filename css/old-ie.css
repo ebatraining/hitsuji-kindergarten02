@@ -1,0 +1,332 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 0 auto;
+	padding: 0 0 0 0;
+	font-size: 16px;
+	color: #774239;
+	background-color: #fdfdf3;
+	background-image: url(../img/back.jpg);
+	background-repeat: repeat-x;
+}
+h1 {
+	text-align: center;
+	text-decoration: bold;
+	color: #963;
+	font-size: 26px;
+}
+h2 {
+	color: #774239;
+	font-size: 24px;
+}
+h3 {
+	color: #963;
+	font-size: 22px;
+}
+p {
+	font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	line-height: 1.7;
+}
+a: link .a:visited {
+	color: #37c;
+}
+a: hover {
+	color: #37c;
+	text-decoration: underline;
+}
+section, article, aside, nav, header, footer, hgroup {
+	display: block;
+}
+/*コンテンツ------------*/
+#page {
+	margin: 0 auto;
+	width: 950px;
+}
+#logo_hitsuji1 {
+	margin: 20px 0 0 0;
+	width: 100%;
+}
+#logo_hitsuji1 img {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: auto;
+}
+#logo_hitsuji {
+	display: none;
+}
+#slider4 {
+	margin-top: 20px;
+	width:100%;
+}
+#slider4 img{
+	width:100%;
+	height:auto;
+	margin: 0 0% 0 0%
+}
+#plan {
+	margin: 30px auto 20px auto;
+	text-align: left;
+}
+#plan h1 {
+	text-align: center;
+	text-decoration: bold;
+	color: #963;
+	font-size: 26px;
+	background-image: url(../img/titleback1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 286px;
+}
+#main {
+	clear: both;
+	float: left;
+	width: 48%;
+	text-align: left;
+	background-color: #fff;
+	padding: 0px 0px 0px 10px;
+	border: 1px solid #EBCA9A;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+ -webkit-box-shadow: 1px 1px 0 #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 1px 1px 0 #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1);
+	box-shadow: inset 1px 1px 0 #fff, 1px 1px 3px rgba(0, 0, 0, 0.1);
+	margin-bottom: 30px;
+}
+#sub section {
+	float: right;
+	width: 48%;
+	background-color: #fff;
+	padding: 0px 0px 0px 10px;
+	border: 1px solid #EBCA9A;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+ -webkit-box-shadow: 1px 1px 0 #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 1px 1px 0 #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1);
+	box-shadow: inset 1px 1px 0 #fff, 1px 1px 3px rgba(0, 0, 0, 0.1);
+	margin-bottom: 30px;
+}
+#album {
+	clear: both;
+	margin: 30px auto 20px auto;
+}
+#album h1 {
+	text-align: center;
+	text-decoration: bold;
+	color: #963;
+	font-size: 26px;
+	background-image: url(../img/titleback.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 286px;
+}
+aside {
+	overflow: hidden;
+}
+.publicity {
+	float: left;
+	width: 24%;
+	margin-left: 4%;
+	margin-right: 5%;
+}
+.last {
+	margin-right: 4%;
+}
+.publicity img {
+	margin-bottom: 0px;
+}
+.publicity h3 {
+	font-size: 14px;
+	line-height: 1.2;
+	margin-bottom: 6px;
+}
+.publicity p {
+	font-size: 12px;
+	line-height: 1.7;
+}
+#access {
+	clear: both;
+	margin: 30px auto 20px auto;
+}
+#access h1 {
+	text-align: center;
+	text-decoration: bold;
+	color: #963;
+	font-size: 26px;
+	background-image: url(../img/titleback2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 286px;
+}
+#map-sub {
+	clear: both;
+	float: right;
+	display: block;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 38%;
+	background-color: #F9CAC3;
+	padding: 0px 0px 20px 20px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+ -webkit-box-shadow: 1px 1px 0 #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 1px 1px 0 #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1);
+	box-shadow: inset 1px 1px 0 #fff, 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+#photo_kinder {
+	width: 340px;
+}
+footer {
+	clear: both;
+	margin: 20px auto;
+}
+#copyright {
+	padding-top: 20px;
+	text-align: center;
+	color: #fff;
+	background-color: #B3D41F;
+	clear:both;
+}
+.anchor_link {
+	clear: both;
+	z-index: 20000;
+	text-align: right;
+	position: fixed;
+	bottom: 40px;
+	right: 30px;
+	opacity: 1;
+}
+
+.anchor_link img{
+	border:0;
+}
+
+/*マップ------------*/
+.ggmap {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 0px;
+	height: 0;
+	overflow: hidden;
+}
+.ggmap iframe, .ggmap object, .ggmap embed {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 58%;
+	height: 95%;
+}
+/*ナビ------------*/
+nav {
+	margin: 0 0 0 0px;
+	padding: 0px 0 0 0px;
+	background-color: #FFF;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	width: 950px;
+	overflow:hidden;
+}
+nav ul {
+	display: block;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	list-style-type: none;
+}
+nav ul li {
+	float: left;
+	width:20%;
+	border-bottom: none;
+	border-right: 0px solid #ddd;
+}
+
+nav ul li img{
+	width:189px;
+}
+
+nav ul li a {
+	display: block;
+	padding: 0px;
+}
+nav a:hover {
+	background: none;
+}
+nav #current a {
+	color: #333;
+	background: #fff;
+}
+/*アルバム------------*/
+.albumpage {
+	clear: both;
+	margin:0 0 0 0;
+	width: 950px;
+}
+.albumlogo {
+	padding-top: 20px;
+}
+.albumpage aside .asideLogo img {
+	width: 24%;
+	margin: 0 auto;
+}
+.albumpage .publicity {
+	float: left;
+	width: 24%;
+	margin-left: 1%;
+	margin-right: 0%;
+}
+.albumpage .last {
+	margin-right: 0%;
+}
+.albumpage .publicity img {
+	margin-bottom: 0px;
+	width:100%;
+	height:auto;
+}
+.albumpage h1 {
+	clear: both;
+	text-align: center;
+	text-decoretion: bold;
+	color: #963;
+	font-size: 26px;
+	display: block;
+	background-image: url(../img/titleback.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 286px;
+}
+.albumpage_yoko {
+	clear: both;
+	margin:0 0 0 0;
+	width: 950px;
+}
+.albumpage_yoko .publicity {
+	float: left;
+	width: 30%;
+	margin-left: 0%;
+	margin-right: 4%;
+}
+.albumpage_yoko .last {
+	margin-right: 0%;
+}
+.albumpage_yoko .publicity img {
+	margin-bottom: 0px;
+	width:100%;
+	height:auto;
+}
+.albumpage_yoko h1 {
+	clear: both;
+	text-align: center;
+	text-decoration: bold;
+	color: #963;
+	font-size: 24px;
+	display: block;
+	background-image: url(../img/titleback.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 286px;
+}

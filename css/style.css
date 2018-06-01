@@ -1,0 +1,411 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*===============================================
+●style.css 画面の横幅が769px以上
+===============================================*/
+@media screen and (min-width: 769px) {
+html{margin:0 0 0 0;}
+body {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	font-size: 16px;
+	color: #593927;
+	background-color: #f8f2e5;
+
+}
+h1 {
+	text-align: center;
+	text-decoration: bold;
+	color: #593927;
+	font-size: 26px;
+}
+h2 {
+	color: #593927;
+	font-size: 24px;
+}
+h3 {
+	color: #593927;
+	font-size: 22px;
+}
+p {
+	font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	
+}
+a: link .a:visited {
+	color: #37c;
+}
+a: hover {
+	color: #37c;
+	text-decoration: underline;
+}
+section, article, aside, nav, header, footer, hgroup {
+	display: block;
+}
+/*コンテンツ------------*/
+#page {
+	margin: 0 auto;
+	max-width: 950px;
+}
+#logo_hitsuji1 {
+
+	width: 100%;
+}
+#logo_hitsuji1 img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: auto;
+}
+#logo_hitsuji {
+	display: none;
+}
+#slider4 {
+	margin-top: 0px;
+	max-width:100%;
+}
+#slider4 img{
+	width:100%;
+	height:auto;
+	margin: 0 0% 0 0%
+}
+#slider4s {
+	display: none;
+}
+#slider4s img{
+	display: none;
+}
+#plan {
+	margin: 20px auto 20px auto;
+	text-align: left;
+}
+#plan h1 {
+	margin-top:40px;
+}
+
+
+#main {
+	clear: both;
+	float: left;
+	width: 44%;
+	text-align: left;
+	background-color: #fff;
+	padding: 0px 0px 0px 10px;
+	border: 1px dashed #593927;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+ 	-webkit-box-shadow: 1px 1px 0 #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 1px 1px 0 #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1);
+	box-shadow: inset 1px 1px 0 #fff, 1px 1px 3px rgba(0, 0, 0, 0.1);
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+#main h3{
+	background-color:#ffc9c9;
+	margin:5px 5px 5px -5px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	padding: 0.5em;
+}
+#sub section {
+	float: right;
+	width: 44%;
+	background-color: #fff;
+	padding: 0px 0px 0px 10px;
+	border: 1px dashed #593927;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+ 	-webkit-box-shadow: 1px 1px 0 #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 1px 1px 0 #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1);
+	box-shadow: inset 1px 1px 0 #fff, 1px 1px 3px rgba(0, 0, 0, 0.1);
+	margin-right: 30px;
+	margin-bottom: 36px;
+}
+#sub h3{
+	background-color:#b9edbd;
+	margin:5px 5px 5px -5px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	padding: 0.5em;
+}
+#sub2 section {
+	float: right;
+	width: 44%;
+	background-color: #fff;
+	padding: 0px 0px 0px 10px;
+	border: 1px dashed #593927;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+ 	-webkit-box-shadow: 1px 1px 0 #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 1px 1px 0 #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1);
+	box-shadow: inset 1px 1px 0 #fff, 1px 1px 3px rgba(0, 0, 0, 0.1);
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+#sub2 h3{
+	background-color:#ffe2ba;
+	margin:5px 5px 5px -5px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	padding: 0.5em;
+}
+#album {
+	clear: both;
+	margin: 30px auto 20px auto;
+}
+#album h1{
+	margin-top:40px;
+}
+aside {
+	overflow: hidden;
+}
+
+
+.publicity {
+	float: left;
+	width: 26%;
+	margin-left: 4%;
+	margin-right: 2%;
+
+}
+.last {
+	margin-right: 2%;
+}
+.mask-wrap {
+	display: inline-block;
+	position: relative;
+}
+.publicity img {
+	width: 220px;
+	height: 162px;
+	margin-bottom:20px;
+		border:solid 10px #f0d9c0;
+	border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+
+}
+.publicity h3 {
+	font-size: 14px;
+	line-height: 1.2;
+	margin-bottom: 6px;
+}
+.publicity p {
+	font-size: 12px;
+	line-height: 1.7;
+}
+.publicity .mask {
+	width:220px;
+	height: 162px;
+	position:absolute;	/* 絶対位置指定 */
+	top:10px;
+	left:10px;
+	opacity:0;	/* マスクを表示しない */
+	background-color:rgba(89,57,39,0.5);	/* マスクは半透明 */
+	-webkit-transition:	all 0.2s ease;
+	transition:	all 0.2s ease;
+}
+.publicity:hover .mask {
+	opacity:		1;	/* マスクを表示する */
+}
+ .caption {
+	font-size:130%;
+	text-align:center;
+	padding-top:70px;
+	color:#fff;
+}
+
+.album_photo{
+	border:solid 10px #f0d9c0;
+	border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+}
+#access {
+	margin: 30px 30px 20px 30px;
+}
+#access h1 {
+margin-top:40px;
+}
+#map-sub h2{
+	font-size: 21px;
+	line-height: 16px;
+}
+#map-sub p{
+		font-size: 85%;
+		line-height: 18px;
+}
+#map-sub {
+	position: relative;
+	clear: both;
+	float: right;
+	display: block;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 38%;
+	background-color: #fff;
+	padding: 0px 0px 20px 20px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+		border: 1px dashed #593927;
+	border-radius: 7px;
+ -webkit-box-shadow: 1px 1px 0 #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 1px 1px 0 #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1);
+	box-shadow: inset 1px 1px 0 #fff, 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.gaikan{
+	position: relative;
+	    top:-350px;
+	    right:5%;
+	text-align:right;
+	margin:0 auto -200px auto;
+
+}
+.gaikan img{
+	max-width:293px;
+}
+
+.mail_r img{
+	position: absolute;
+    top:0px;
+    right: -10px;
+    width: 110px;
+}
+.mail_img{
+	width: 110px;
+}
+.mail_r a:hover img {
+	width: 110px;
+-webkit-transform: rotate(8deg);
+-moz-transform: rotate(8deg);
+-o-transform: rotate(8deg);
+-ms-transform: rotate(8deg);
+transform: rotate(8deg);
+}
+
+footer {
+	clear: both;
+	margin-bottom: 0px;
+}
+#copyright {
+	padding-top: 20px;
+	margin: 0 0 0 0;
+	text-align: center;
+	color: #fff;
+	background-color: #72cde7;
+
+}
+.anchor_link {
+	clear: both;
+	z-index: 20000;
+	text-align: right;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	opacity: 1;
+}
+
+/*マップ------------*/
+.ggmap {
+	position: relative;
+	padding-top: 0px;
+	height: 500px;
+	overflow: hidden;
+}
+.ggmap iframe, .ggmap object, .ggmap embed {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 58%;
+	height: 95%;
+}
+/*ナビ------------*/
+#menu_sp nav {
+	display:none;
+}
+#menu_sp nav ul {
+	display:none;
+}
+#menu_sp nav ul li {
+	display:none;
+}
+#menu_pc nav {
+	padding-left:auto;
+	padding-right:auto;
+	padding-top: 10px;
+	height:60px;
+	max-width: 950px;
+	overflow:hidden;
+}
+#menu_pc nav ul {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto 0;
+	text-align:center;
+	padding: 0 0 0 0;
+	list-style-type: none;
+}
+#menu_pc nav ul li {
+	float: left;
+	padding:0 10px 0 10px;
+}
+#menu_pc nav li+li{
+	border-left:0px dashed #593927;
+	padding:0px 10px 0 20px;
+	height:45px;
+
+}
+#menu_pc nav ul li img{
+width: 100%;
+}
+
+
+/*アルバム------------*/
+.white-mask a:hover img {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  -ms-filter: "alpha(opacity=70)";
+}
+.albumpage {
+	clear: both;
+ 	margin:0 0 120px 0;
+	max-width: 950px;
+}
+.albumlogo {
+	padding-top: 0px;
+}
+.albumpage aside .asideLogo img {
+	width: 24%;
+	margin: 0 auto;
+}
+.albumpage .publicity {
+	display: flex;
+	justify-content: center;
+	width: 20%;
+	margin-left: 3%;
+	margin-right: 1%;
+	margin-bottom: 2%;
+}
+.albumpage .last {
+	margin-right: 4%;
+}
+.albumpage .publicity img {
+	margin-bottom: 0px;
+	width:100%;
+	height:auto;
+}
+.albumpage h1 {
+	clear: both;
+	text-align: center;
+
+}
+}
+
