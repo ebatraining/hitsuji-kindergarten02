@@ -20,6 +20,8 @@
 <script src="js/rollover_jsp.js"></script>
 <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="js/jquery.marquee.js"></script>
+<script type="text/javascript" src="js/ggrmap.js"></script>	
+<script src="https://maps.google.com/maps/api/js?key=AIzaSyDBOWsXqhnPniOH1ORCpLR0rMVriog3Dqo"></script>
 <script type="text/javascript">
 		$(function () {
 		$('p.ticker').marquee();
@@ -174,8 +176,7 @@ $(function() {
 			<h1><img src="images/hi_access.png"></h1>
 			<div id="map-main">
 				<div class="ggmap">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3231.435042000114!2d139.49152115075626!3d35.911850080043685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018dafbb8b51ff9%3A0x43fbe20b9048196b!2z44CSMzUwLTAwMzQg5Z-8546J55yM5bed6LaK5biC5LuZ5rOi55S677yT5LiB55uu77yW4oiS77yR!5e0!3m2!1sja!2sjp!4v1463974159354" frameborder="0" style="border:0" allowfullscreen>
-					</iframe>
+				<div id="g_map"></div>
 					<div id="map-sub">
 						<h2><small>学校法人</small> ひつじ幼稚園</h2>
 						<p>〒350-0034 埼玉県川越市仙波町３-６-１<br>
