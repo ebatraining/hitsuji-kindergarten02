@@ -236,7 +236,7 @@ p {
 	position: relative;
 	clear: both;
 	display: block;
-	margin-top: 400px;
+	margin-top: 50px;
 	margin-left: 5%;
 	width: 85%;
 	height:auto;
@@ -305,13 +305,10 @@ footer {
 	height: auto;
 	overflow: hidden;
 }
-.ggmap iframe, .ggmap object, .ggmap embed {
-	position: absolute;
-	top: 0px;
-	left: 5%;
-	width: 90%;
-	height: 390px;
-}
+#g_map{
+	width: 100%;
+	height: 400px;
+	}
 /*ナビ----------*/
 
 #menu_pc nav {
