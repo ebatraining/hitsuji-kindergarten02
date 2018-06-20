@@ -244,6 +244,7 @@ margin-top:40px;
 }
 #map-sub {
 	position: relative;
+	top: -400px;
 	clear: both;
 	float: right;
 	display: block;
@@ -263,6 +264,7 @@ margin-top:40px;
 }
 .gaikan{
 	position: relative;
+	z-index: -1;
 	    top:-350px;
 	    right:5%;
 	text-align:right;
@@ -320,13 +322,10 @@ footer {
 	height: 500px;
 	overflow: hidden;
 }
-.ggmap iframe, .ggmap object, .ggmap embed {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 58%;
-	height: 95%;
-}
+#g_map{
+	width: 50%;
+	height: 400px;
+	}
 /*ナビ------------*/
 #menu_sp nav {
 	display:none;
