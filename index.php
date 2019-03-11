@@ -21,7 +21,8 @@
 <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="js/jquery.marquee.js"></script>
 <script type="text/javascript" src="js/ggrmap.js"></script>	
-<script src="https://maps.google.com/maps/api/js?key=AIzaSyDBOWsXqhnPniOH1ORCpLR0rMVriog3Dqo"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0u4djv6RtTQpNZ0tpQaL3g95kJzff0tk"></script>
+<!--script src="https://maps.google.com/maps/api/js?key=AIzaSyDBOWsXqhnPniOH1ORCpLR0rMVriog3Dqo"></script-->
 <script type="text/javascript">
 		$(function () {
 		$('p.ticker').marquee();
